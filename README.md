@@ -14,3 +14,9 @@ To run the benchmark:
 npm install
 npm test
 ```
+
+It's also possible to specify command line arguments other than `-O`, which is the default:
+
+```
+npm test -- -Oz --enable-simd ...
+```
